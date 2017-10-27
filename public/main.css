@@ -54,12 +54,13 @@ main {
   
   /*margin: -100px 20px 80px 20px; */
   background-color: white;
-  border: 5vw solid transparent;
+  border: 5vw solid;
   border-image: url("border.gif") 30 round;
   margin-left: 9%;
   margin-right: 9%;
   margin-bottom: 12%;
-  margin-top: -19%;
+  margin-top: -17.5vw;
+  max-height: 500vw;
 }
 
 header {
@@ -116,7 +117,7 @@ aside {
     /* rem units are your friend use them often */
     padding: 0 5%;
     font-family: sans-serif;
-  font-size: 6.3vw;
+  font-size: 6vw;
     text-align: center;
   border-top-right-radius: 2.4rem;
   border-bottom-left-radius: 2.4rem;
@@ -157,8 +158,9 @@ footer {
     font-family: cursive;
     text-align: center;
     position: relative;
-    padding: 5% 0;
+    padding: 5%;
     font-size: 50%;
+    box-shadow: 0px .25vw 0px 1.25vw #FE52C7;
 }
 
 
@@ -169,7 +171,7 @@ footer {
    below 200 easily formatted */
    
 footer .wrapper img {
- max-width: 25%;
+ max-width: 27%;
   height: auto;
 }
 
@@ -180,22 +182,24 @@ footer .wrapper span {
 footer .wrapper img:hover + span{
   display: inline-block;
   text-align: center;
-  width: 18vw;
-  height: 12vw;
+  width: 16vw;
+  height: 11vw;
   position: absolute;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  -moz-border-radius: 2vw;
+  -webkit-border-radius: 2vw;
+  border-radius: 2vw;
   background: white;
-  font-size: 5vw;
-  border: 1vw solid black;
+  font-size: 4vw;
+  border: .75vw solid black;
+  margin-left: 1.1vw;
+  margin-bottom: 1.1vw;
 }
 
 footer .wrapper img + span:before{
   content:"";
   position:absolute;
-  bottom:3vw;
-  left: -2vw;
+  bottom:4vw;
+  left: -3.1vw;
   border-width:2vw 2vw 0;
   border-style:solid;
   border-color: black transparent;
@@ -206,5 +210,5 @@ footer .wrapper img + span:before{
 
 footer .wrapper span {
   postion: absolute;
-  line-height: 85px;
+  line-height: 10vw;
 }
