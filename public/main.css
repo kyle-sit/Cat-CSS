@@ -1,97 +1,210 @@
 /* Hint: use relative measurements you'll find them useful! */
 /* I may have removed a selector or two */
 
-@import url();  /* Set this for Monton a Google Font ...figure out their syntax */
+@import url(https://fonts.googleapis.com/css?family=Monoton);  /* Set this for Monton a Google Font ...figure out their syntax */
 
 * {
     box-sizing: border-box;
 }
 
 body {
-}
+    background-image: url("background.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 144%;
+  background-position: top left ;
+    background-repeat-y-stop: 10px;
 
-main {
-}
-header {
-}
-section {
-	/* color rgb(243,234,95) is used */
-        display: flex;
-        flex-direction: column-reverse;
-
-}
-section > div {
-    /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */
-    
-}
-section > aNastyNthChildSelectorToWrite {
-	/* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
-	/* background color is  rgb(192,77,249) */
-	
-    
-}
-section > aNastyNthChildSelectorToWrite {
-	/* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
-    /* background color is  rgb(43,209,252) */
-
-}
-section > div:nth-child(3):after {
-	/* gave you the nth child after selector for free to inspire you */
-	/* generated content in here ... a property can do that */
-            margin-left: 10px;
-            content: "♥♥♥";
-	}
-	
-	/* some free rules for fun */
-aside {
-    background: rgb(255,63,63);
-    color: white;
-    border: 1rem solid black;
-    border-top-left-radius: 1rem;
-    /* rem units are your friend use them often */
-
-    font-family: sans-serif;
-    font-size: 7rem;
-
-    text-align: center;
-}
-
-aside svg {
-    width: 8rem;
-    height: 9rem;
-    fill: white;
-}
-
-#zap {
-    background-color: rgb(243,234,95);
-    color: white;
-    text-shadow: 0px 1px 1px black;
-    text-align: center;
-}
-
-h3 {
-      border: 1px solid white;
-      border-style: double;
-      padding: 0.5rem;
-      font-size: 2rem;
 }
 
 .fun {
     font-family: Monospace;
-    font-size: 7rem;
+    font-size: 18vw;
     color: white;
     text-transform: uppercase;
     text-shadow: -1px -1px 0 #F00, 1px -1px 0 #F00, -1px 1px 0 #F00, 1px 1px 0 #F00,
                  -1px -.5px 0 #F00, 1px -.5px 0 #F00, -1px .5px 0 #F00, 1px .5px 0 #F00,
                  -.5px -1px 0 #F00, .5px -1px 0 #F00, -.5px 1px 0 #F00, .5px 1px 0 #F00,
-                 1px 3px 8px #F00;
+                 1px 3px 3px #F00;
 }
 
 #kern3 {
     letter-spacing: -2vw;
 }
+
+a {
+  display: inline-block;
+  padding: 4vw;
+  line-height: 150%;
+  -moz-border-radius: 70%;
+  border-radius: 70%;
+  background-color: rgb(255,60,204);
+  color: black;
+    font-size: 10vw;
+  font-weight: 400;
+  font-family: 'Monoton', serif;
+  text-decoration: none;
+    box-shadow: 0px 2.5px 9px black;
+}
+
+main {
+  /*background-image: url("border.gif");
+  background-repeat: no-repeat;
+  background-size: 100% auto;*/
+  
+  /*margin: -100px 20px 80px 20px; */
+  background-color: white;
+  border: 5vw solid transparent;
+  border-image: url("border.gif") 30 round;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-bottom: 12%;
+  margin-top: -19%;
+}
+
+header {
+  text-align: left;
+  margin: 8vw 50% 10% 10%;
+}
+
+section {
+  /* color rgb(243,234,95) is used */
+  color: rgb(243, 234, 95);
+  text-align: center;
+  margin: 0px 0px 15px 0px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+section > div {
+    /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-transform: lowercase;
+  padding: 3vw 0vw 0vw 0vw;
+  width: 85%;
+  height: 12vw;
+  text-align: center;
+  margin: auto;
+  font-size: 4.5vw;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+section > div:nth-of-type(odd) {
+  /* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
+  /* background color is  rgb(192,77,249) */
+  background: rgb(192, 77, 249);
+}
+section > div:nth-of-type(even) {
+  /* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
+    /* background color is  rgb(43,209,252) */
+  background: rgb(43, 209, 252);
+
+}
+
+section > div:nth-child(3):after {
+  /* gave you the nth child after selector for free to inspire you */
+  /* generated content in here ... a property can do that */
+  content: "    ♥♥♥";
+}
+  
+  /* some free rules for fun */
+aside {
+    background: rgb(255,63,63);
+    color: white;
+    border: 3vw solid black;
+    border-top-left-radius: 0.75rem;
+    /* rem units are your friend use them often */
+    padding: 0 5%;
+    font-family: sans-serif;
+  font-size: 6.3vw;
+    text-align: center;
+  border-top-right-radius: 2.4rem;
+  border-bottom-left-radius: 2.4rem;
+  border-bottom-right-radius: 0.75rem;
+  width: 86%;
+  height: 38vw;
+  text-align: center;
+  margin: auto;
+}
+
+aside > p {
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%); 
+}
+
+aside svg {
+    width: 6vw;
+    height: 6vw;
+    fill: white;
+  font-size: 1rem;
+}
+
+#zap {
+    background-color: rgb(243,234,95);
+    color: white;
+    text-shadow: 0.6px 0.6px 01px black;
+    text-align: center;
+    outline-style: double;
+    outline-color: rgb(243,234,95);
+    width:90%;
+    font-size: 5vw;
+  margin: 4vw 20vw 5vw 4vw;
+
+}
+footer {
+  background-color: #FE52C7;
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    padding: 5% 0;
+    font-size: 50%;
+}
+
+
 /* Oh no! The file has been truncated I guess you have to fill it in */
 
 /* Solution given should
    be below 250 lines, the solution we had was
    below 200 easily formatted */
+   
+footer .wrapper img {
+ max-width: 25%;
+  height: auto;
+}
+
+footer .wrapper span {
+  display: none;
+}
+
+footer .wrapper img:hover + span{
+  display: inline-block;
+  text-align: center;
+  width: 18vw;
+  height: 12vw;
+  position: absolute;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: white;
+  font-size: 5vw;
+  border: 1vw solid black;
+}
+
+footer .wrapper img + span:before{
+  content:"";
+  position:absolute;
+  bottom:3vw;
+  left: -2vw;
+  border-width:2vw 2vw 0;
+  border-style:solid;
+  border-color: black transparent;
+  display: block;
+  width: 0;
+  transform: rotate(90deg);
+}
+
+footer .wrapper span {
+  postion: absolute;
+  line-height: 85px;
+}
