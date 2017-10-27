@@ -14,7 +14,6 @@ body {
   background-size: 144%;
   background-position: top left ;
     background-repeat-y-stop: 10px;
-
 }
 
 .fun {
@@ -48,11 +47,6 @@ a {
 }
 
 main {
-  /*background-image: url("border.gif");
-  background-repeat: no-repeat;
-  background-size: 100% auto;*/
-  
-  /*margin: -100px 20px 80px 20px; */
   background-color: white;
   border: 5vw solid;
   border-image: url("border.gif") 30 round;
@@ -117,7 +111,7 @@ aside {
     /* rem units are your friend use them often */
     padding: 0 5%;
     font-family: sans-serif;
-  font-size: 6vw;
+  font-size: 6.0vw;
     text-align: center;
   border-top-right-radius: 2.4rem;
   border-bottom-left-radius: 2.4rem;
