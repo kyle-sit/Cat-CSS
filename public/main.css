@@ -8,12 +8,12 @@
 }
 
 body {
-    background-image: url("background.png");
+  background-image: url("background.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: 144%;
   background-position: top left ;
-    background-repeat-y-stop: 10px;
+  padding-top: 5%;
 }
 
 .fun {
@@ -43,7 +43,7 @@ a {
   font-weight: 400;
   font-family: 'Monoton', serif;
   text-decoration: none;
-    box-shadow: 0px 2.5px 9px black;
+  box-shadow: 0px 2.5px 9px black;
 }
 
 main {
@@ -53,13 +53,13 @@ main {
   margin-left: 9%;
   margin-right: 9%;
   margin-bottom: 12%;
-  margin-top: -17.5vw;
-  max-height: 500vw;
+  margin-top: -21%;
+
 }
 
 header {
   text-align: left;
-  margin: 8vw 50% 10% 10%;
+  margin: 8vw 50% 10% 10%; 
 }
 
 section {
@@ -144,7 +144,8 @@ aside svg {
     outline-color: rgb(243,234,95);
     width:90%;
     font-size: 5vw;
-  margin: 4vw 20vw 5vw 4vw;
+    margin: 4vw 20vw 5vw 4vw;
+    border-radius: 0.5vw;
 
 }
 footer {
