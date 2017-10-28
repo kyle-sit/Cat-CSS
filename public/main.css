@@ -54,6 +54,7 @@ main {
   margin-left: 9%;
   margin-right: 9%;
   margin-bottom: 12%;
+  margin-top: 9%;
   position: absolute;
 
 }
@@ -214,4 +215,9 @@ footer .wrapper img + span:before{
 footer .wrapper span {
   postion: absolute;
   line-height: 10vw;
+}
+
+svg {
+  height: 0;
+  width: 0;
 }
